@@ -1,0 +1,33 @@
+.instructions--meal {
+    flex:50%;
+    text-align: center;
+    max-width: 50em;
+}
+
+.meal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.instructions--meal iframe{
+    margin-top: 5em;
+    border-radius: 2px;
+}
+
+.image--meal{
+    max-width: 25em;
+    padding: 2em;
+    flex:50%;
+}
+
+.image--meal img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+@media(max-width:800px){
+    .instructions--meal, .image--meal{
+        flex: 100%;
+    }
+}
